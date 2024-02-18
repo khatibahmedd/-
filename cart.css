@@ -1,0 +1,257 @@
+*{
+    font-family: 'Cairo', sans-serif;
+text-decoration: none;
+list-style: none;
+margin: 0;
+padding: 0;
+direction: rtl;
+
+
+}
+
+
+.home{
+    width: 100%;
+    height: 100vh;
+background-color: white;
+color: #000;
+direction:rtl
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding:10px ;
+
+}
+.header{
+    font-size: 13px;
+    color: #000;
+   
+}
+.header:hover{
+    color: #676F54;
+    transition: 0.4s ease-in-out;
+    font-size: 20px;
+}
+.search{
+    padding: 20px;
+    margin-left: 300px;
+    
+}
+.search input{
+    width: 250px;
+}
+.search input::placeholder{
+font-size: 17px;
+padding-right: 30px;
+}
+.logo{
+    font-family: 'Cairo', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 70px;
+    margin-right: 100px;
+    color: #000;
+
+}
+.logo:hover{
+    cursor: pointer;
+  
+    transition:0.2s ease ;
+    transform: scale(1.1);
+}
+span{
+    font-family: 'Cairo', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.styl{
+    display: flex;
+    justify-content: space-between;
+}
+.style{
+    font-size: 13px;
+    color: #000;
+    margin: 30px;
+    padding-right: 30px;
+}
+.style:hover{
+    color: #676F54;
+    transition: 0.4s ease-in-out;
+    font-size: 20px;
+}
+/* ##############################################################################
+#########################################################################
+################################################################################################# */
+body{
+    text-align: center;
+    height:100vh;
+}
+
+.container{
+    padding: 10px;
+    padding-right: 50px;
+}
+span{
+    color:#d6001c ;
+}
+.list{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+.item{
+    width: 250px;
+    padding: 30px;
+    margin-bottom: 20px;
+    height: 350px;
+    font-size: 13px;
+}
+ 
+.img{
+    padding-top: 15px;
+    height: 335px;
+    width: 93%;
+    transition: 0.3 ease-in-out;
+    margin-top: -30px;
+}
+.img:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+
+}
+button{
+    border-radius: 30px;
+    border: none;
+    width: 60px;
+    height: 30px;
+    background-color:#d6001c;
+    color:#E2E8CE;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #E2E8CE;
+    color: #d6001c;
+    transform:scale(1.1);
+    transition: 0.3 ease-in-out;
+}
+
+.payment{
+    width: 300px;
+    height: 350px;
+     background-color: #e2e8ced3;
+     color: #000;
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     margin: auto;
+     padding: 18px 50px;
+     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.575);
+    z-index: 999;
+    display: none;
+    flex-direction: column;
+
+}
+.payTitle{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 25px;
+}
+label{
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 7px;
+}
+input{
+    margin-bottom: 7px;
+    padding: 4.5px;
+    direction: ltr;
+}
+.close{
+    width: 30px;
+    height: 26px;
+    background-color: #d6001dec;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 1px;
+
+}
+.close:hover{
+    cursor: pointer;
+    background-color: #676f54c0;
+    transition: 0.3s ease;
+    
+}
+.btn{
+    border-radius: 30px;
+    border: none;
+    width: 60px;
+    height: 30px;
+    background-color:#d6001c;
+    color:#E2E8CE;
+   margin-right: 42%;
+   margin-top: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #bcc5a1;
+    color: #d6001c;
+    transform:scale(1.1);
+    transition: 0.3 ease-in-out;
+    
+}
+/* ############################
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+################# */
+
+.card{
+    background-color: #bcc5a1;
+    height: 200vh;
+  
+    position: absolute;
+    top: 0;
+    width: 300px;
+    transition: 0.3s ease;
+    left: 100%;
+}
+
+.active .card{
+   
+    left:calc(100%-400px) ;
+    
+}
+.active .container{
+    transform: translateX(-300px);
+}
+.listCard{
+   padding-top: 30px;
+}
+
+.closeShopping{
+    font-size: 15px;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin-right: 5px;
+margin-top: 5px;
+ 
+   
+    width: 50px;
+}
+.imgg{
+    padding-top: 45px;
+    height: 335px;
+    width: 93%;
+    transition: 0.3 ease-in-out;
+    margin-top: -30px;
+}
+

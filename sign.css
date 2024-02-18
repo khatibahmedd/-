@@ -1,0 +1,142 @@
+*{
+    font-family: 'Cairo', sans-serif;
+text-decoration: none;
+list-style: none;
+margin: 0;
+padding: 0;
+
+
+}
+
+
+.home{
+    width: 100%;
+    height: 100vh;
+background-color: white;
+color: #000;
+direction:rtl
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding:10px ;
+
+}
+.header{
+    font-size: 13px;
+    color: #000;
+   
+}
+.header:hover{
+    color: #676F54;
+    transition: 0.4s ease-in-out;
+    font-size: 20px;
+}
+.search{
+    padding: 20px;
+    margin-left: 300px;
+    
+}
+.search input{
+    width: 250px;
+}
+.search input::placeholder{
+font-size: 17px;
+padding-right: 30px;
+}
+.logo{
+    font-family: 'Cairo', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 70px;
+    margin-right: 100px;
+    color: #000;
+
+}
+.logo:hover{
+    cursor: pointer;
+  
+    transition:0.2s ease ;
+    transform: scale(1.1);
+}
+span{
+    font-family: 'Cairo', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.styl{
+    display: flex;
+    justify-content: space-between;
+}
+.style{
+    font-size: 13px;
+    color: #000;
+    margin: 30px;
+    padding-right: 30px;
+}
+.style:hover{
+    color: #676F54;
+    transition: 0.4s ease-in-out;
+    font-size: 20px;
+}
+/* ..................#############################################################################
+##################################################################################333
+###########################################################################3
+*/
+.sign{
+    direction: ltr;
+    margin: 10px;
+    padding-top: 30px;
+    margin-left: 175px;
+    font-size: 12px;
+}
+hr{
+  width: 75%;
+  margin-right: 12%;
+}
+.signmass{
+    direction: ltr;
+  padding-top: 15px;
+    margin-left: 175px;
+    font-size: 12px;
+}
+.tone{
+    direction: ltr;
+    margin-right: 66%;
+    padding-top: 29px;
+
+}
+.email{
+    width: 270px;
+}
+.email:hover{
+    transition:0.2s ease ;
+    transform: scale(1.1);
+}
+.btn{
+ width: 130px; 
+ height: 40px;
+ background-color:#1C1C1C;  
+ color: white;
+ font-size: 17px;
+}
+.btn:hover{
+    background-color: #676f54be;
+}
+.ttwo{
+    direction: ltr;
+    margin-right: 25%;
+    margin-bottom: 700px;
+
+}
+
+.inputcontrol.sucess input{
+    border-color: red;
+}
+
+.inputcontrol.error input{
+    border-color: red;
+}
+.error{
+    color: red;
+}
+
+

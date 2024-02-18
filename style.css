@@ -1,0 +1,185 @@
+*{
+    font-family: 'Cairo', sans-serif;
+text-decoration: none;
+list-style: none;
+margin: 0;
+padding: 0;
+
+}
+
+
+.home{
+    width: 100%;
+    height: 100vh;
+background-image: url(ph/bg.jpeg);
+background-size: cover;
+background-position: center;
+color: #E2E8CE;
+direction:rtl
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+   
+    padding:10px ;
+
+}
+.header{
+    font-size: 13px;
+    color: #E2E8CE;
+   
+}
+.header:hover{
+    color: #ACBFA4;
+    transition: 0.4s ease-in-out;
+    font-size: 20px;
+}
+.search{
+    padding: 20px;
+    margin-left: 300px;
+    
+}
+.search input{
+    width: 250px;
+}
+.search input::placeholder{
+font-size: 17px;
+padding-right: 30px;
+}
+.logo{
+    font-family: 'Cairo', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 70px;
+    margin-right: 100px;
+    color: #000;
+
+}
+.logo:hover{
+    cursor: pointer;
+  
+    transition:0.2s ease ;
+    transform: scale(1.1);
+}
+span{
+    font-family: 'Cairo', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.styl{
+    display: flex;
+    justify-content: space-between;
+}
+.style{
+    font-size: 13px;
+    color: #E2E8CE;
+    margin: 30px;
+    padding-right: 30px;
+}
+.style:hover{
+    color: #ACBFA4;
+    transition: 0.4s ease-in-out;
+    font-size: 20px;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+
+/* page2 */
+.page2{
+    width: 100%;
+    height:50vh;
+    text-align: center;
+   
+}
+
+.headp{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+   
+   
+}
+.st{
+display: flex;
+justify-content: space-between;
+text-align: center;
+padding-left: 41%;
+font-size: 40px;
+}
+.stli{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 22px;
+}
+.stli:hover{
+    cursor: pointer;
+    background-color: #d6001c;
+    color: white;
+    transition: 0.2s ease-in-out;
+    font-size: 20px;
+}
+
+.p1{
+    padding-top: 10px;
+  width: 15%;
+}
+
+.products .contact{
+    width: 250px;
+    padding: 30px;
+    margin-bottom: 20px;
+    height: 350px;
+    font-size: 13px;
+}
+.products .contact img{
+    height: 335px;
+    width: 93%;
+    transition: 0.3 ease-in-out;
+    margin-top: -30px;
+
+}
+.products .contact img:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+
+}
+.products .contact button{
+    border-radius: 30px;
+    border: none;
+    width: 60px;
+    height: 30px;
+    background-color:#d6001c;
+    color:#E2E8CE;
+    
+}
+.products .contact button:hover{
+    cursor: pointer;
+    background-color: #E2E8CE;
+    color: #d6001c;
+    transform:scale(1.1);
+    transition: 0.3 ease-in-out;
+}
+.products{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+/* 00000000000000000000000000000000000000000000000000000000000000000000000000000000000 */
+/* 00000000000000000000000000000000000000000000000000000000000000000000000000000000000 */
+
+.page3{
+    width: 100%;
+    height:50vh;
+    text-align: center;
+    margin-top: 10px;
+   
+}
+
+.page4{
+    width: 100%;
+    height:60vh;
+    text-align: center;
+    margin-top: 110px;
+   
+}
